@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
     //////////////////////////////////////
 //        ?????????????????????????????????????????????????????/
 //        ??????????
-//        sssssssssssssss
+//        ssssssss
         addDatabase();
         addControls();
         addData("full");
@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity
         mangaArrayList = new ArrayList<Manga>();
         mangaArrayList = db.getListManga(s);
         setMangaAdapter(mangaArrayList);
+//        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     }
 
     public void setMangaAdapter(ArrayList<Manga> list){
