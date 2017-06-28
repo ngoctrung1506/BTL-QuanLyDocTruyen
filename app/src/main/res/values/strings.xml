@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Manga World</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings11111111</string>
+    <string name="title_activity_manga_detal">Nội dung chi tiết</string>
+    <string name="title_activity_chapter_detal">Nội dung chương</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="ĐỌC TRUYỆN">
+        <menu>
+            <item
+                android:id="@+id/nav_truyentoanbo"
+                android:icon="@drawable/ic_all"
+                android:title="Toàn bộ truyện" />
+            <item
+                android:id="@+id/nav_truyenmoi"
+                android:icon="@drawable/ic_property"
+                android:title="Truyện mới" />
+            <item
+                android:id="@+id/nav_truyenhot"
+                android:icon="@drawable/ic_hot"
+                android:title="Truyện hot" />
+        </menu>
+    </item>
+
+    <item android:title="TRUYỆN CỦA TÔI">
+        <menu>
+            <item
+                android:id="@+id/nav_yeuthich"
+                android:icon="@drawable/ic_love"
+                android:title="Yêu thích" />
+            <item
+                android:id="@+id/nav_datai"
+                android:icon="@drawable/ic_download"
+                android:title="Đã tải" />
+            <item
+                android:id="@+id/nav_ganday"
+                android:icon="@drawable/ic_recent"
+                android:title="Gần đây" />
+        </menu>
+    </item>
+
+
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/nav_dangki"
+                android:icon="@drawable/ic_sign_up"
+                android:title="Đăng kí" />
+            <item
+                android:id="@+id/nav_dangnhap"
+                android:icon="@drawable/ic_sign_in"
+                android:title="Đăng nhập" />
+        </menu>
+    </item>
+
+    <item
+            android:id="@+id/nav_caidat"
+            android:icon="@drawable/ic_setting"
+            android:title="Cài đặt" />
+
+
+</menu>
