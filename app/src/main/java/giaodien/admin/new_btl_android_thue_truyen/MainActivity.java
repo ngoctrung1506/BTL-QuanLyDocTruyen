@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity
         rv_manga.setAdapter(mangaAdapter);
         rv_manga.setHasFixedSize(true);
         rv_manga.setLayoutManager(lLayout);
+//        ccccccccccccccccc
     }
     @Override
     public void onBackPressed() {
