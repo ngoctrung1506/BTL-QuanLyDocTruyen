@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.txtTacGia:
                 addData("full");
                 break;
+            /////////////////////////////////////////
             case R.id.editHoten:
                 addData("hot");
                 break;
