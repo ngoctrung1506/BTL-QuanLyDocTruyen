@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/New_BTL_Android_Thue_truyen.iml" filepath="$PROJECT_DIR$/New_BTL_Android_Thue_truyen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BTL-QuanLyDocTruyen.iml" filepath="$PROJECT_DIR$/BTL-QuanLyDocTruyen.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
