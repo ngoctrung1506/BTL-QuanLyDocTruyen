@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_truyentoanbo:
                 addData("full");
                 break;
-            case R.id.nav_dangnhap:
+            case R.id.nav_truyenhot:
                 addData("hot");
                 break;
             case R.id.nav_truyenmoi:
@@ -127,17 +127,17 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, LovedMangaActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
-            case R.id.nav_dangki:
+            case R.id.nav_dangnhap:
                 Intent intent1 = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(intent1);
                 break;
-            case R.id.txtTacGia:
+            case R.id.btnguitt:
                 Intent intent2 = new Intent(MainActivity.this, RegisterActivity.class);
                 MainActivity.this.startActivity(intent2);
                 break;
         }
 
-
+/////////////////////////////////////////////////////////////
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
