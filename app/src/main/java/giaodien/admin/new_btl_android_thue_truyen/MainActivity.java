@@ -114,13 +114,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         switch (id) {
-            case R.id.nav_truyentoanbo:
+            case R.id.imageView:
                 addData("full");
                 break;
             case R.id.editHoten:
                 addData("hot");
                 break;
-            case R.id.nav_truyenmoi:
+            case R.id.editCMND:
                 addData("new");
                 break;
             case R.id.nav_yeuthich:
