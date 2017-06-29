@@ -42,10 +42,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
-    //////////////////////////////////////
-//        ?????????????????????????????????????????????????????/
-//        ??????????
-//        ssssssss
+
         addDatabase();
         addControls();
         addData("full");
@@ -62,7 +59,7 @@ public class MainActivity extends AppCompatActivity
         mangaArrayList = new ArrayList<Manga>();
         mangaArrayList = db.getListManga(s);
         setMangaAdapter(mangaArrayList);
-//        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
     }
 
     public void setMangaAdapter(ArrayList<Manga> list){
@@ -71,7 +68,7 @@ public class MainActivity extends AppCompatActivity
         rv_manga.setAdapter(mangaAdapter);
         rv_manga.setHasFixedSize(true);
         rv_manga.setLayoutManager(lLayout);
-//        ccccccccccccccccc
+
     }
     @Override
     public void onBackPressed() {
