@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_truyentoanbo:
                 addData("full");
                 break;
-            case R.id.nav_truyenhot:
+            case R.id.editHoten:
                 addData("hot");
                 break;
             case R.id.nav_truyenmoi:
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
                 Intent intent1 = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(intent1);
                 break;
-            case R.id.btnguitt:
+            case R.id.nav_caidat:
                 Intent intent2 = new Intent(MainActivity.this, RegisterActivity.class);
                 MainActivity.this.startActivity(intent2);
                 break;
