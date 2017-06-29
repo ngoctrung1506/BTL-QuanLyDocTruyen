@@ -114,7 +114,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         switch (id) {
+<<<<<<< HEAD
             case R.id.btnguitt:
+=======
+            case R.id.txtTacGia:
+>>>>>>> 956e7bac68cbb3af7de9763d7b270b813fe5c74a
                 addData("full");
                 break;
             case R.id.editHoten:
