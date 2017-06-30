@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity
     SQLiteManga db;
 
     // Master yep i am your master
-//    test fetch 2
+//    test fetch 3
     // Master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
