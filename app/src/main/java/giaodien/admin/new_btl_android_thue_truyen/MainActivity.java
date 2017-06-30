@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity
     SQLiteManga db;
 
     // Master
+    // Master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
