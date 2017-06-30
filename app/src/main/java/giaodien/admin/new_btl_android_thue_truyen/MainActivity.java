@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
     private GridLayoutManager lLayout;
     SQLiteManga db;
 
-    // Master
+    // Master yep i am your master
     // Master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
