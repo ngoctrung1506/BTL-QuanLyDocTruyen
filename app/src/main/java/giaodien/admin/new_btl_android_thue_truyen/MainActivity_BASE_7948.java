@@ -25,17 +25,13 @@ public class MainActivity extends AppCompatActivity
     private GridLayoutManager lLayout;
     SQLiteManga db;
 
-
-    // Not Master haha haha
-    // Branch
-
+    // Master
+    // Master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-      // Test master pull from f-test-conflict branch
-
+//////////////////////////////////////////////////////////////////////////////////////////
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -123,7 +119,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.txtTacGia:
                 addData("full");
                 break;
-            case R.id.nav_dangnhap:
+            case R.id.editHoten:
                 addData("hot");
                 break;
             case R.id.editCMND:
@@ -133,8 +129,7 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, LovedMangaActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
-
-            case R.id.nav_dangki:
+            case R.id.action_search:
                 Intent intent1 = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(intent1);
                 break;
@@ -144,6 +139,7 @@ public class MainActivity extends AppCompatActivity
                 break;
         }
 
+/////////////////////////////////////////////////////////////
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
