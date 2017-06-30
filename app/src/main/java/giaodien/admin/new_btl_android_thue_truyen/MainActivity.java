@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
       // Test master pull from f-test-conflict branch
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -116,29 +116,29 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         switch (id) {
-            case R.id.nav_truyentoanbo:
+            case R.id.txtTacGia:
                 addData("full");
                 break;
             case R.id.nav_dangnhap:
                 addData("hot");
                 break;
-            case R.id.nav_truyenmoi:
+            case R.id.editCMND:
                 addData("new");
                 break;
             case R.id.nav_yeuthich:
                 Intent intent = new Intent(MainActivity.this, LovedMangaActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
+
             case R.id.nav_dangki:
                 Intent intent1 = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(intent1);
                 break;
-            case R.id.activity_main:
+            case R.id.basic:
                 Intent intent2 = new Intent(MainActivity.this, RegisterActivity.class);
                 MainActivity.this.startActivity(intent2);
                 break;
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
