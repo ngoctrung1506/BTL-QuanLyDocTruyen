@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+      // Test master pull from f-test-conflict branch
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -42,13 +44,10 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
-    //////////////////////////////////////
-//        ?????????????????????????????????????????????????????/
-//        ??????????
-//        ssssssss
         addDatabase();
         addControls();
         addData("full");
+
     }
 
     public void addDatabase(){
@@ -62,7 +61,7 @@ public class MainActivity extends AppCompatActivity
         mangaArrayList = new ArrayList<Manga>();
         mangaArrayList = db.getListManga(s);
         setMangaAdapter(mangaArrayList);
-//        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
     }
 
     public void setMangaAdapter(ArrayList<Manga> list){
@@ -71,7 +70,7 @@ public class MainActivity extends AppCompatActivity
         rv_manga.setAdapter(mangaAdapter);
         rv_manga.setHasFixedSize(true);
         rv_manga.setLayoutManager(lLayout);
-//        ccccccccccccccccc
+
     }
     @Override
     public void onBackPressed() {
@@ -120,7 +119,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_truyentoanbo:
                 addData("full");
                 break;
-            case R.id.nav_truyenhot:
+            case R.id.nav_dangnhap:
                 addData("hot");
                 break;
             case R.id.nav_truyenmoi:
@@ -130,11 +129,11 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, LovedMangaActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
-            case R.id.nav_dangnhap:
+            case R.id.nav_dangki:
                 Intent intent1 = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(intent1);
                 break;
-            case R.id.nav_dangki:
+            case R.id.activity_main:
                 Intent intent2 = new Intent(MainActivity.this, RegisterActivity.class);
                 MainActivity.this.startActivity(intent2);
                 break;
